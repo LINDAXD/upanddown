@@ -1,0 +1,20 @@
+body{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000000;
+    margin:0 auto;
+    margin-top:50px;
+    text-align: center;
+}
+
+@media (min-width: 992px){
+.container {
+    max-width: 960px;
+}
+}
+
+@media (min-width: 300px){
+    .container {
+        max-width: 960px;
+    }
+    }
