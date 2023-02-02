@@ -68,6 +68,12 @@ function play(){
     resultArea.textContent = "Up!!!"
     //결과값을 보여줌 reultArea 대신 up으로 출력
     //console.log("Up!!!")
+        const img = document.createElement('img');
+        img.src = 'up.png';
+        document.getElementById('play-button').appendChild(img).reset();
+        Image.style.width='200px';
+        Image.style.height='200px';
+        return false;
    }else if(userValue>computerNum){
     resultArea.textContent = "Down!!!"
     //결과값을 보여줌 reultArea 대신 down으로 출력
